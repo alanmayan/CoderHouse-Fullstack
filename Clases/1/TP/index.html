@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Titulo del doc</title>
+</head>
+<body>
+	<header id="home">
+	<!-- contenedor de bloque. semantica para indicar que  aca vienen los botones -->
+		<a href="http://www.google.com">
+            <a href="index.html"><img src="logo.png" alt="Page Logo"></a> <!-- src ruta de la imagen y alt alternativa texto q identifica la imagen -->
+		</a>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="#aboutUs">About Us</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+				<li>
+					<a href="#portfolio">Portfolio</a>
+				</li>
+				<li>
+					<a href="#contactUs">Contact Us</a>
+				</li>
+
+			</ul>
+		</nav>
+	</header>
+
+	<section class="main">
+	<!-- contenedor de bloque. contenido general -->
+
+		<section class="banner">
+			<ul>
+				<li>
+					<p>
+						I develop website using Bootstrap front-end framework..
+					</p>
+                    <img src="banner-bg.jpg">
+				</li>
+				<li>
+					<p>
+						I develop website using Bootstrap front-end framework..
+					</p>
+				</li>
+			</ul>
+
+			<!--Para el carousel de fotos-->
+			<nav>
+				<button>X</button>
+				<button>X</button>
+				<button>X</button>
+				<button>X</button>
+			</nav>
+		</section>
+
+
+		<section class="intro">
+            <!-- PREGUNTA :1 por que se ve mas chico el h1 que despues cuando uso h2 y h3? No deberia ser al reves? !-->
+            
+			<h1>I create beatiful responsive websites, Yes I am a UX Geek</h1>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis necessitatibus ex iure tempore sequi quaerat velit nobis aliquam unde aut quibusdam maiores eaque magnam delectus ipsa est ipsum, voluptas, ad.</p>
+		</section>
+
+		<section id="aboutUs" class="aboutUs">
+            <a href="#home"><img src="toTop.png"></a>
+			<h2>I am Sam, a UI Designer & developer</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+			<article class="design">
+				<img src="computer.png" alt="Computer">	
+				<h3><strong>Responsive</strong> Design</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat nemo autem? Nihil nam, officia, laudantium excepturi, iste inventore quibusdam adipisci hic eaque quia voluptate! Eaque iste asperiores praesentium omnis!</p>
+			</article>
+
+			<article class="developer">
+				<img src="html5.png" alt="HTML5">	
+				<h3><strong>HTML5/CSS3</strong> Dev</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat nemo autem? Nihil nam, officia, laudantium excepturi, iste inventore quibusdam adipisci hic eaque quia voluptate! Eaque iste asperiores praesentium omnis!</p>
+			</article>
+			
+			<article class="javascript">
+				<img src="idea.png" alt="JavaScript">	
+				<h3><strong>Javascript</strong> jQuery</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat nemo autem? Nihil nam, officia, laudantium excepturi, iste inventore quibusdam adipisci hic eaque quia voluptate! Eaque iste asperiores praesentium omnis!</p>
+			</article>
+		</section>
+
+		<section class="quote">
+			<blockquote>
+                <!-- PREGUNTA :2 esta bien que le ponga el texto de la cita como un <h1>? En realidad no tiene importancia la cita !-->
+				<h1>If I asked people what they wanted, they would have said 'Faster Horses'</h1>
+                -<cite>Henry Ford</cite>
+			</blockquote>
+            <a href="#home"><img src="toTop.png"></a>
+		</section>
+	</section>
+
+	<section id="skills" class="skills">
+        
+        <!-- PREGUNTA :3 debería empezar devuelta con h1 para cada nuevo section, o continuo con h2? !-->
+        
+		<h2>My Skills</h2>
+		<span>Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+		<article class="programmingSkills">
+			<h3>Programming <strong>Skills</strong></h3>
+			<p>It takes knowledge, smart work, and dedication to make great ideas come to life. I have been helping make great ideas happen for the past 7 years and am always ready for new challenges</p>
+			
+			<ul>
+				<li>
+					<h4>HTML5</h4><img src="exphtml5.png" alt="ExperienceHTML5">
+				</li>
+				<li>
+					<h4>CSS/CC3</h4><img src="expcss.png" alt="ExperienceCSS">
+				</li>
+				<li>
+					<h4>JavaScript</h4><img src="expjs.png" alt="ExperienceJavaScript">
+				</li>
+				<li>
+					<h4>jQuery/Ajax</h4><img src="expjquery.png" alt="ExperiencejQueryAjax">
+				</li>
+			</ul>
+		</article>
+
+		<article class="designingSkills">
+			<h3>Designing <strong>Skills</strong></h3>
+			<p>Problem solving is not always about sitting in a board room talking about the way things should be done. I have a strong background in Ui design which allows me to think on my feet and act upon it.</p>
+			
+			<ul>
+				<li>
+					<h4>Photoshop</h4><img src="expps.png" alt="ExperiencePhotoshop">
+				</li>
+				<li>
+					<h4>Illustrator</h4><img src="expillustrator.png" alt="ExperienceIllustrator">
+				</li>
+				<li>
+					<h4>Indesign</h4><img src="expid.png" alt="ExperienceIndesign">
+				</li>
+			</ul>
+		</article>
+    </section>
+	
+    <section id="experience" class="experience">
+        <a href="#home"><img src="toTop.png"></a>
+        <h2>Professional Experience</h2>
+        <!-- PREGUNTA :4 esta bien usar <p> con un texto corto solamente para que separe debajo al otro elemento? O sea en este caso la foto que pongo a continuacion, para que no me la muestre a la derecha del texto !-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        
+        <!-- PREGUNTA :5 me parecio que era mas facil ponerlo como imagen, no se si deberia haber puesto el texto de cada recuadro como un <p> adentro de una lista? !-->
+        <img src="proExperience.png">
+    </section>
+	
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>At lorem ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+        <ul>
+            <li>All</li>
+            <li>Web Design</li>
+            <li>Photography</li>
+            <li>Print</li>
+        </ul>
+        <!-- PREGUNTA :6 debería hacer una lista desordenada con cada imagen como item? !-->
+        <img src="portfolio.png">
+    </section>
+    
+	<footer>
+	<!-- contenedor de bloque. aca viene el contenido de contacto y demas-->
+        <section id="contactUs" class="contactUs">
+			<h2>Let's Keep In Touch!</h2>
+			<p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
+            <a href="#home"><img src="toTop.png"></a>
+			<form action="">
+				<fieldset>
+					<label for="fullname">Name</label>
+					<input type="text" id="fullname" name="fullname" placeholder="Enter name">
+				</fieldset>
+
+				<fieldset>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Enter email" required>
+				</fieldset>
+
+				<fieldset>
+					<label for="comment">Comments</label>
+					<textarea name="comment" id="comment" placeholder="Enter your message..."></textarea>
+				</fieldset>
+
+				<fieldset>
+					<button class="submit">Submit</button>
+				</fieldset>
+			</form>
+
+			<aside>
+				
+				<div>
+					<h3>Address:</h3>
+					<address>
+                        <p>Web Themez Company</p>
+                        <p>134 Stilla. Tae., 414515</p>
+                        <p>Leorislon, SA 02434-34534 USA</p>
+                    </address>
+				</div>
+
+				<div>
+					<h3>Phone:</h3>
+					<a href="tel:12345-49589-2">12345-49589-2</a>
+				</div>
+			</aside>
+		</section>
+        
+        <section class="socialLinks">
+            <!-- PREGUNTA :7 esta bien que ponga los iconos como una lista desordenada? Porque me queda uno debajo del otro !-->
+                <a href="http://www.twitter.com"><img src="twitter.png" alt="Twitter Icon"></a>
+                <a href="http://www.facebook.com"><img src="facebook.png" alt="Facebook Icon"></a>
+                <a href="http://www.dribbble.com"><img src="dribbble.png" alt="Dribbble Icon"></a>
+                <a href="http://www.flickr.com"><img src="flickr.png" alt="Flickr Icon"></a>
+                <a href="http://www.github.com"><img src="git.png" alt="Git Icon"></a>
+        </section>
+        
+        <section class="copyright">
+            <span>Copyright 2014 | All Rights Reserved -- Template by </span><a href="http://www.webthemez.com">WebThemez.com</a>
+            <a href="#home"><img src="toTop.png"></a>
+        </section>
+	</footer>
+	
+</body>
+</html>
