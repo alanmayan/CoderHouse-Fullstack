@@ -1,20 +1,21 @@
 #CLASE 3
 
--Install markdown editing package  
+- Install markdown editing package  
 
--Install markdown preview package  
+- Install markdown preview package  
 
--Se aprendieron los comandos de bash:  
+- Se aprendieron los comandos de bash:  
 
-    +cd  
+    + cd  
 
-    +ls  
+    + ls  
 
-    +mkdir  
+    + mkdir  
 
-    +mv  
+    + mv  
 
-    +rm  
+    + rm  
 
-    +pwd  
+    + pwd  
     
+- Crear cuenta en [https://github.com](GitHub)
